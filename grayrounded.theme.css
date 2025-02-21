@@ -1,14 +1,14 @@
-/* Make EVERYTHING rounded */
+
 * {
-    border-radius: 60px !important; /* Adjust the radius as needed */
+    border-radius: 60px !important;
 }
 
-/* Ensure avatars stay circular */
+
 .avatar-small, .avatar-large, .avatar-xlarge, .avatar-xxlarge {
     border-radius: 50% !important;
 }
 
-/* Remove black hover effects */
+
 .guilds-wrapper .guild:hover,
 .guilds-wrapper .guild.selected,
 .guilds-wrapper .guild.selected:hover,
@@ -24,7 +24,7 @@
     background-color: transparent !important;
 }
 
-/* Hide Scrollbar Completely */
+
 ::-webkit-scrollbar {
     display: none !important;
 }

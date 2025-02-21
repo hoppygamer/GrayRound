@@ -1,14 +1,30 @@
-
+/* Make EVERYTHING rounded */
 * {
-    border-radius: 30px !important; 
+    border-radius: 12px !important; /* Adjust the radius as needed */
 }
 
-
-::-webkit-scrollbar {
-    display: none !important;
-}
-
-
+/* Ensure avatars stay circular */
 .avatar-small, .avatar-large, .avatar-xlarge, .avatar-xxlarge {
     border-radius: 50% !important;
+}
+
+/* Remove black hover effects */
+.guilds-wrapper .guild:hover,
+.guilds-wrapper .guild.selected,
+.guilds-wrapper .guild.selected:hover,
+.channel:hover,
+.channel.selected,
+.channel.selected:hover,
+.folder:hover,
+.folder.selected,
+.folder.selected:hover,
+.sidebar:hover,
+.sidebar.selected,
+.sidebar.selected:hover {
+    background-color: transparent !important;
+}
+
+/* Hide Scrollbar Completely */
+::-webkit-scrollbar {
+    display: none !important;
 }

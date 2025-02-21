@@ -1,22 +1,20 @@
 
-.app, .bg-primary, .bg-secondary, .bg-tertiary {
+.app, .bg-primary, .bg-secondary, .bg-tertiary, .theme-dark {
     background-color: #000000 !important;
     color: #ffffff !important;
 }
 
 
-.avatar-small, .avatar-large, .avatar-xlarge, .avatar-xxlarge {
-    border-radius: 50% !important;
+::-webkit-scrollbar {
+    display: none !important;
 }
 
 
-.button, .button-1aOsg5, .button-38aScr {
-    border-radius: 50px !important;
-}
-
-
-.input, .input-2g-os5 {
-    border-radius: 50px !important;
+.avatar-small, .avatar-large, .avatar-xlarge, .avatar-xxlarge,
+.message-group, .message-content, .button, .button-1aOsg5, .button-38aScr,
+.input, .input-2g-os5, .channel, .guild, .container-2cd8Mz,
+.messages-wrapper, .chat, .content, .sidebar, .header, .footer {
+    border-radius: 12px !important; /* Adjust the radius as needed */
 }
 
 
@@ -47,15 +45,36 @@
 }
 
 
-::-webkit-scrollbar {
-    width: 8px !important;
+.input, .input-2g-os5, .button, .button-1aOsg5, .button-38aScr {
+    border-radius: 12px !important;
 }
 
-::-webkit-scrollbar-thumb {
-    background-color: #444444 !important;
-    border-radius: 4px !important;
+
+.guild-inner {
+    border-radius: 50% !important;
 }
 
-::-webkit-scrollbar-track {
-    background-color: #000000 !important;
+
+.channel {
+    border-radius: 12px !important;
+}
+
+
+.chat, .messages-wrapper {
+    border-radius: 12px !important;
+}
+
+
+.sidebar {
+    border-radius: 12px !important;
+}
+
+
+.header {
+    border-radius: 12px !important;
+}
+
+
+.footer {
+    border-radius: 12px !important;
 }

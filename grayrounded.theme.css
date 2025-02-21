@@ -1,6 +1,6 @@
 /* Make EVERYTHING rounded */
 * {
-    border-radius: 12px !important; /* Adjust the radius as needed */
+    border-radius: 60px !important; /* Adjust the radius as needed */
 }
 
 /* Ensure avatars stay circular */
